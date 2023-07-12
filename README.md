@@ -32,11 +32,11 @@ Para la funcionalidad de la Pokedex.
 6. Se crea una funcion asincrona llamada "getPokemon la cual requiere el parametro "id"; esta función obtiene la información de la api "poke-api" mediante una solicitud HTTP GET por medio de la URL de la API y la asigna a la variable "data" como parametro para la funcion createPokemonCard.
 
 7. Se crea una funcion llamada "createPokemonCard" en la cual se hace lo sigiente:
-     7.1 Adicionar un elemento tipo div al contenedor con la clase "pokemon_container" y asignarle una clase llamada "pokemon".
-     7.2 asignar un color a cada typo de pokemon mediante la creacion de un array que tome todos los tipos de pokemon directamente de la           api y los compare con el array ya creado anteriormente.
-     7.3 Crear el HTML de una de las card´s de pokemon:
-           se requiere un Div para la imagen del pokemon y un div para la informacion del pokémon, con las clases ya usadas en el archivo           CSS donde se le asigno estilos.
-     7.4 Por ultimo se actualiza el elemento pokémon y se agrega esto como un hijo del contenedor llamado "poke-container"
+   7.1 Adicionar un elemento tipo div al contenedor con la clase "pokemon_container" y asignarle una clase llamada "pokemon".
+   7.2 asignar un color a cada typo de pokemon mediante la creacion de un array que tome todos los tipos de pokemon directamente de la           api y los compare con el array ya creado anteriormente.
+   7.3 Crear el HTML de una de las card´s de pokemon:
+       se requiere un Div para la imagen del pokemon y un div para la informacion del pokémon, con las clases ya usadas en el archivo CSS donde se le asigno estilos.
+   7.4 Por ultimo se actualiza el elemento pokémon y se agrega esto como un hijo del contenedor llamado "poke-container"
 8. Para finalizar se llama a la funcion "fetchPokemon" para que siga iterando el ciclo for y se pase al siguiente id.
    
       
