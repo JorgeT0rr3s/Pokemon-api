@@ -39,7 +39,6 @@ const createPokemonCard = (pokemon) => {
 fetchPokemons()
 
 function generarDivs() {
-var container = document.getElementById('poke-container');
 
 for (var i = 0; i < pokemon_count; i++) {
 	// Crear elemento div con la clase "pokemon"
@@ -86,7 +85,7 @@ for (var i = 0; i < pokemon_count; i++) {
 	div.appendChild(info);
 
 	// Agregar el div al contenedor
-	container.appendChild(div);
+	poke_container.appendChild(div);
 }
 }
 
